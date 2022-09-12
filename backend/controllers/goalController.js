@@ -23,7 +23,7 @@ const setGoal = asyncHandler(async (req, res) => {
 // Route: PUT /api/goals/:id
 // Access: Private
 const updateGoal = asyncHandler(async (req, res) => {
-  res.status(200).json({ message: `Update goal ${req.params.id}` })
+  res.status(200).json({ message: `Update goal ${req.params.id}` }) 
 })
 
 // Description: Delete goal
